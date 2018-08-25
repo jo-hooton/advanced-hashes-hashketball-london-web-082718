@@ -4,8 +4,8 @@ def game_hash
             colors:["Black", "White"],
             :players => [
                 { player_name: "Alan Anderson",
-                  number: "0",
-                  shoe: "16",
+                  number: 0,
+                  shoe: 16,
                   points: 22,
                   rebounds: 12,
                   assists: 12,
@@ -14,8 +14,8 @@ def game_hash
                   slam_dunks: 1
                 },
                 { player_name: "Reggie Evans",
-                  number: "30",
-                  shoe: "14",
+                  number: 30,
+                  shoe: 14,
                   points: 12,
                   rebounds: 12,
                   assists: 12,
@@ -24,8 +24,8 @@ def game_hash
                   slam_dunks: 7
                 },
                 { player_name: "Brook Lopez",
-                  number: "11",
-                  shoe: "17",
+                  number: 11,
+                  shoe: 17,
                   points: 17,
                   rebounds: 19,
                   assists: 10,
@@ -34,8 +34,8 @@ def game_hash
                   slam_dunks: 15
                 },
                 { player_name: "Mason Plumlee",
-                  number: "11",
-                  shoe: "17",
+                  number: 11,
+                  shoe: 17,
                   points: 17,
                   rebounds: 19,
                   assists: 10,
@@ -44,8 +44,8 @@ def game_hash
                   slam_dunks: 15
                 },
                 { player_name: "Jason Terry",
-                  number: "31",
-                  shoe: "15",
+                  number: 31,
+                  shoe: 15,
                   points: 19,
                   rebounds: 2,
                   assists: 2,
@@ -59,8 +59,8 @@ def game_hash
               colors: ["Turquoise","Purple"],
               players: [
                 { player_name: "Jeff Adrien",
-                  number: "4",
-                  shoe: "18",
+                  number: 4,
+                  shoe: 18,
                   points: 10,
                   rebounds: 1,
                   assists: 1,
@@ -69,8 +69,8 @@ def game_hash
                   slam_dunks: 2
                 },
                 { player_name: "Bismak Biyombo",
-                  number: "0",
-                  shoe: "16",
+                  number: 0,
+                  shoe: 16,
                   points: 12,
                   rebounds: 4,
                   assists: 7,
@@ -79,8 +79,8 @@ def game_hash
                   slam_dunks: 10
                 },
                 {   player_name: "DeSagna Diop",
-                    number: "2",
-                    shoe: "14",
+                    number: 2,
+                    shoe: 14,
                     points: 24,
                     rebounds: 12,
                     assists: 12,
@@ -89,8 +89,8 @@ def game_hash
                     slam_dunks: 5
                 },
                 {   player_name: "Ben Gordon",
-                    number: "8",
-                    shoe: "15",
+                    number: 8,
+                    shoe: 15,
                     points: 33,
                     rebounds: 3,
                     assists: 2,
@@ -99,8 +99,8 @@ def game_hash
                     slam_dunks: 0
                 },
                 {   player_name: "Brendan Haywood",
-                    number: "33",
-                    shoe: "15",
+                    number: 33,
+                    shoe: 15,
                     points: 6,
                     rebounds: 12,
                     assists: 12,
@@ -111,4 +111,8 @@ def game_hash
           ]
       }
     }
+end
+
+def num_points_scored(player_name)
+    
 end
