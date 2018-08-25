@@ -2,18 +2,18 @@ def game_hash
   game {
     home: { team_name:"Brooklyn Nets"
             colors:["Black", "White"]
-            players: 
+            players:
                 { "Alan Anderson" {
-                  number:
-                  shoe:
-                  points:
-                  rebounds:
-                  assists:
-                  steals:
-                  blocks:
-                  slam_dunks:
+                  number: "0"
+                  shoe: "16"
+                  points: 22
+                  rebounds: 12
+                  assists: 12
+                  steals: 3
+                  blocks: 1
+                  slam_dunks: 1
                 }
-                  
+
                 },
                 { "Reggie Evans" {
                   number:
@@ -23,7 +23,7 @@ def game_hash
                   assists:
                   steals:
                   blocks:
-                  slam_dunks: 
+                  slam_dunks:
                  }
                 },
                 { "Brook Lopez" {
@@ -34,7 +34,7 @@ def game_hash
                   assists:
                   steals:
                   blocks:
-                  slam_dunks: 
+                  slam_dunks:
                  }
                 },
                 { "Mason Plumlee" {
@@ -45,7 +45,7 @@ def game_hash
                   assists:
                   steals:
                   blocks:
-                  slam_dunks: 
+                  slam_dunks:
                  }
                 },
                 { "Jason Terry" {
@@ -56,7 +56,7 @@ def game_hash
                   assists:
                   steals:
                   blocks:
-                  slam_dunks: 
+                  slam_dunks:
                  }
                 }
           }
@@ -71,7 +71,7 @@ def game_hash
                   assists:
                   steals:
                   blocks:
-                  slam_dunks: 
+                  slam_dunks:
                  }
                 },
                 { "Bismak Biyombo" {
@@ -82,7 +82,7 @@ def game_hash
                   assists:
                   steals:
                   blocks:
-                  slam_dunks: 
+                  slam_dunks:
                  }
                 },
                 { "DeSagna Diop" {
@@ -93,7 +93,7 @@ def game_hash
                     assists:
                     steals:
                     blocks:
-                    slam_dunks: 
+                    slam_dunks:
                    }
                 },
                 { "Ben Gordon" {
@@ -104,7 +104,7 @@ def game_hash
                     assists:
                     steals:
                     blocks:
-                    slam_dunks: 
+                    slam_dunks:
                    }
                 },
                 { "Brendan Haywood" {
@@ -115,20 +115,10 @@ def game_hash
                     assists:
                     steals:
                     blocks:
-                    slam_dunks: 
+                    slam_dunks:
                    }
                 }
       }
     }
   }
 end
-
-
-
-
-
-
-
-
-
-
